@@ -21,8 +21,7 @@ public class OJ044_RegexMatch {
 		if(pBegin < p.length()){
 			if(p.charAt(pBegin) == '*'){
 				if(sBegin < s.length())
-					return matchCore(s, p, sBegin, pBegin+1) || matchCore(s, p, sBegin+1, pBegin) 
-						|| matchCore(s, p, sBegin + 1, pBegin + 1);
+					return matchCore(s, p, sBegin, pBegin+1) || matchCore(s, p, sBegin+1, pBegin);
 				else
 					return matchCore(s, p, sBegin, pBegin+1);
 			}

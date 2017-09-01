@@ -1,9 +1,7 @@
 package leetcode;
 
 public class OJ091_DecodeWays {
-	public static void main(String[] args){
-		
-	}
+
 	public static int numDecodings(String s){
 		int len = s.length();
 		if(s.length() == 0)

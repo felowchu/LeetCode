@@ -5,6 +5,8 @@ public class OJ070_ClimibingStairs {
 		System.out.println(climbStairs(5));
 	}
 	public static int climbStairs(int n){
+		if(n <= 0)
+			return 0;
 		int before = 1;
 		int after = 1;
 		while(n-- > 0){
