@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ012 {
+public class OJ012_IntegerToRoman {
 	public String intToRoman(int num) {
 	       
 		String s = "";

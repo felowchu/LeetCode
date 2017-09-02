@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ005_3 {
+public class OJ005_LongestPalindromicSubstring3 {
 	private static int lo = 0;
     private static int maxLen = 0;
 	public static void main(String[] args){

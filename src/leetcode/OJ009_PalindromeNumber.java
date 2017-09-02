@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ009 {
+public class OJ009_PalindromeNumber {
 	public static void main(String[] args){
 		int x = 12344321;
 		System.out.println(isPalindrome(x));

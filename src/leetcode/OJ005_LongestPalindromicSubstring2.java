@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ005_2 {
+public class OJ005_LongestPalindromicSubstring2 {
 	public static void main(String[] args){
 		String s = "cccc";
 		System.out.println(longestPalindrome(s));

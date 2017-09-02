@@ -1,8 +1,8 @@
 package leetcode;
 
-public class OJ008 {
+public class OJ008_StringToInteger2 {
 	public static void main(String[] args){
-		String s = "0012a42";
+		String s = "-0012a42";
 		int i  = myAtoi(s);
 		System.out.println(i);
 	}
@@ -21,14 +21,14 @@ public class OJ008 {
 	    if(c.length > 0){
 	    	
 			for(int i = 1; i < c.length; i++){
-				if(c[i] >= '0' && c[i] <= '9' ){
+				if((c[i] >= '0' && c[i] <= '9') || (c[i] >= 'a' && c[i] <= 'f') ){
 					s1 += c[i]; 
 				}
 			}
 			
 			if(s1 != "" && c[0] == '-'){
 				s1 = c[0] +s1;
-			}else if(c[0] >= '0' && c[0] <= '9')  s1 = c[0] + s1;
+			}else if((c[0] >= '0' && c[0] <= '9') || (c[0] >= 'a' && c[0] <= 'f'))  s1 = c[0] + s1;
 			
 			
 			if(s1.length() == 0){

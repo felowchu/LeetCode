@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ011_2 {
+public class OJ011_ContainerWithMostWater2 {
 	
 public int maxArea(int[] height) {
 	int area = 0;

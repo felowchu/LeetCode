@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ006 {
+public class OJ006_ZigZagConversion {
 	public static void main(String[] args){
 		String s = "P A H N" + System.getProperty("line.separator") + "APLSIIG" +System.getProperty("line.separator") + "Y I R";
 		convert(s,3);

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ013RomaToInt {
+public class OJ013_RomaToInt {
 	public static void main(String[] args){
 		String s = "MMMDLXXXVI";
 		System.out.println(romanToInt(s));

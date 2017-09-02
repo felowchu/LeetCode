@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ010 {
+public class OJ010_RegularExceptionMatching {
 	public class Solution {
 	    public boolean isMatch(String s, String p) {
 	        boolean[] match = new boolean[s.length() + 1];

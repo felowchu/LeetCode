@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ007 {
+public class OJ007_ReverseInteger {
 	public static void main(String[] args){
 		
 		int x = 1534236469;

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class OJ014LongestCommonPrefix {
+public class OJ014_LongestCommonPrefix {
 	public static void main(String[] args){
 		String[] strs = {"aa","a"};
 		System.out.println(longestPrefix(strs));
