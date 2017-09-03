@@ -37,6 +37,5 @@ public class OJ038_CountAndSay {
             sb.append(list.get(i));
         }
         return sb.toString();
-        StringBuilder
     }
 }
